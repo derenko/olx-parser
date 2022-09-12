@@ -41,7 +41,6 @@ const getAvailablePages = async () => {
 
 const browserConfig = {
   args: ["--no-sandbox", "--disable-setuid-sandbox"],
-  headless: false,
 };
 
 const disableUnusedTypesOfFiles = (req) => {
